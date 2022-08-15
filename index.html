@@ -10,6 +10,8 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
 
@@ -25,9 +27,34 @@
     <!--====== Tailwind CSS ======-->
     <link rel="stylesheet" href="assets/css/tailwindcss.css">
 
+
+    <style>
+        .floating{
+            position:fixed;
+            width:60px;
+            height:60px;
+            bottom:80px;
+            right:40px;
+            background-color:#25d366;
+            color:#FFF;
+            border-radius:50px;
+            text-align:center;
+            font-size:30px;
+            box-shadow: 2px 2px 3px #999;
+        z-index:100;
+        }
+        
+        .float-button{
+            margin-top:16px;
+        }
+    </style>
+
 </head>
 
 <body>
+      <a href="https://api.whatsapp.com/send?phone=+6281388225513&text=Hi%20Loebisoft%21%20Saya%20ingin%20order%20..." class="floating" target="_blank">
+        <i class="fa fa-whatsapp float-button"></i>
+    </a>
     <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
